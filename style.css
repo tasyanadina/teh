@@ -1,0 +1,36 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background-color: #9ab3f5;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif, Arial,  Helvetica, sans-serif;
+    margin: 50px;
+}
+
+/*header*/
+.header{
+    display: grid;
+    grid-template-areas:
+        'lucu lucu feature-1';
+}
+
+.lucu {
+    grid-area: lucu;
+    min-height: 200px;
+    background-image: url(img/541.png);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+.lucu > *{
+    display:  none;
+}
+
+.feature
